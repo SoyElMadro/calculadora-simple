@@ -4,12 +4,12 @@ html {
    font-family: sans-serif;
 }
 
-.title-div {
+.div-titulo {
    display: flex;
    justify-content: center;
 }
 
-.title {
+.titulo {
    color: #3e3e3e;
    text-align: center;
    text-decoration: underline;
@@ -21,7 +21,9 @@ html {
    margin: 0 0 4px 10px;
 }
 
-.calculator {
+.yo:hover { cursor: pointer; }
+
+.calculadora {
    width:480px;
    height:auto;
    padding:10px 0;
@@ -35,7 +37,7 @@ html {
    text-align: center;
 }
 
-.screen {
+.pantalla {
    width:424px;
    height:93px;
    margin: 12px auto 30px;
@@ -60,7 +62,7 @@ html {
    box-sizing:border-box;
 }
 
-.buttons {
+.botones {
    padding:0;
    width:423px;
    margin:auto;
@@ -68,7 +70,7 @@ html {
    list-style: none;
 }
 
-.buttons li {
+.botones li {
     display:inline;
     float:left;
     padding:0px;
@@ -76,11 +78,11 @@ html {
     margin-bottom:10px;
 }
 
-.buttons li:nth-child(4n) {
+.botones li:nth-child(4n) {
    margin-right:0;
 }
 
-.buttons a {
+.botones a {
    display:block;
    width:95px;
    height:68px;
@@ -110,21 +112,21 @@ html {
    cursor: pointer;
 }
 
-.buttons a:active {
+.botones a:active {
    box-shadow: inset rgba(0,0,0,0.5) 0px 2px 8px;
    background-image:-moz-linear-gradient(top, #2f2f2f 0%, #363636 100%);
    background-image:-webkit-linear-gradient(top, #2f2f2f 0%, #363636 100%);
    background-image:linear-gradient(top, #2f2f2f 0%, #363636 100%);
 }
 
-.tall {
+.mayor {
    height:151px !important;
 }
 
-.wide {
+.ancho {
    width:205px !important;
 }
 
-.shift {
+.cambiar {
    margin-top:-78px;
 }
